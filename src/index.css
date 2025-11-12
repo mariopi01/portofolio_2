@@ -1,4 +1,4 @@
-/* 
+
 @layer base {
   body {
     font-family: 'Raleway', sans-serif;
@@ -11,7 +11,7 @@
 
 html, body, #root { 
   height: 100%; 
-} */
+}
 
 
 /* 1. Impor font yang Anda definisikan di tailwind.config.ts */
