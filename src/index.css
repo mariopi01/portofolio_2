@@ -1,0 +1,31 @@
+/* 
+@layer base {
+  body {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Mulish', sans-serif;
+  }
+}
+
+html, body, #root { 
+  height: 100%; 
+} */
+
+
+/* 1. Impor font yang Anda definisikan di tailwind.config.ts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 2. Hapus blok @layer base yang lama */
+/* Blok @layer base Anda sebelumnya dihapus karena 
+   Anda sudah menanganinya di tailwind.config.ts 
+   dengan 'font-body' dan 'font-display' 
+*/
+
+/* 3. Simpan CSS kustom non-konflik Anda */
+html, body, #root { 
+  height: 100%; 
+}
+
+/* Anda bisa menambahkan CSS kustom lainnya di sini jika perlu */
